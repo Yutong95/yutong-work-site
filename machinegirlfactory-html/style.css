@@ -1,0 +1,85 @@
+body{
+  margin:20px;
+  background-color:black;
+}
+
+p{
+  font-family: 'MuseoModerno', serif;
+}
+
+hr{
+  border: 1px dashed rgb(209, 224, 255);
+}
+
+.description{
+  color:rgb(209, 224, 255);
+  display:block;
+  font-size: 0.8rem;
+}
+
+.when{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .book{
+  font-size:1.5rem;
+  text-align: center;
+} */
+.back{
+  color:rgb(209, 224, 255);
+  position:absolute;
+  text-align: left;
+  top:0;
+  border:1px dashed;
+  border-radius: 10px;
+  padding:4px 4px 4px 4px;
+}
+
+.back:hover{
+  color:rgb(255, 20, 189);
+}
+
+.title{
+  color:rgb(209, 224, 255);
+  font-size:2rem;
+  position: block;
+  text-align: center;
+  height: 40px;
+}
+
+/* .logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top:50px;
+  width:30%;
+} */
+
+.codebook{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:65%;
+}
+
+.screen{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:65%;
+}
+
+.touch{
+  font-size: 1rem;
+  color:rgb(209, 224, 255);
+  text-align: center;
+}
+
+.finger3d{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:70%;
+}

@@ -1,0 +1,69 @@
+body{
+  margin:20px;
+  background:rgb(0, 0, 0);
+}
+
+p{
+  color:rgb(209, 224, 255);
+  font-family: 'MuseoModerno', serif;
+}
+
+a{
+  color:rgb(209, 224, 255);
+  text-decoration: none;
+  display: inline;
+}
+
+a:hover{
+  color:rgb(255, 17, 160);
+}
+
+.back{
+  color:rgb(209, 224, 255);
+  position:absolute;
+  right:20px;
+  top:20px;
+  border: 2px dashed;
+  border-radius: 10px;
+  padding:5px 5px 5px 5px;
+}
+
+.back:hover{
+  color:rgb(255, 17, 160);
+}
+
+.name{
+  /* font-family: 'Playfair Display', serif; */
+  font-size: 1rem;
+}
+
+.cc_name{
+  /* font-family: 'Noto Serif SC', serif; */
+  font-size: 1rem;
+}
+
+.yt_img{
+  width:100px;
+  position: absolute;
+  left:20px;
+}
+
+.describtion{
+  /* font-family: 'Playfair Display', serif; */
+  font-size: 0.8rem;
+  position:absolute;
+  left:20px;
+  top:220px;
+  width:700px;
+}
+
+.edu{
+  font-size: 1rem;
+  font-style: bold;
+}
+
+ul{
+  color:rgb(209, 224, 255);
+  font-family: 'MuseoModerno', serif;
+  list-style:circle;
+}

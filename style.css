@@ -1,0 +1,366 @@
+body{
+  margin:20px;
+  background:black;
+}
+
+hr{
+  border: 1px dashed rgb(209, 224, 255);
+}
+
+ul{
+  list-style:circle;
+}
+
+a{
+  text-decoration: none;
+}
+
+.about{
+  text-decoration: none;
+  color:rgb(255, 20, 189);
+}
+
+.title{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color:rgb(209, 224, 255);
+  font-size: 1rem;
+  /* top:80px;
+  left:30px; */
+  width:50%;
+  /* font-family: serif; */
+  font-family: 'MuseoModerno', serif;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top:50px;
+  /* top:-130px;
+  left:-30px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  width:30%;
+  /* border: 2px dashed;
+  border-radius: 20px; */
+}
+
+.machine{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.machinegirl{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.machine:hover{
+  color:rgb(255, 75, 27);
+}
+
+.machine:hover .machinegirl{
+  opacity:1;
+  display:block;
+}
+
+.order{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.ex_order{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.order:hover{
+  color:rgb(255, 143, 27);
+}
+
+.order:hover .ex_order{
+  opacity:1;
+  display:block;
+}
+
+.labor{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.ex_labor{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.labor:hover{
+  color:rgb(222, 214, 20);
+}
+
+.labor:hover .ex_labor{
+  opacity:1;
+  display:block;
+}
+
+.spirit{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.ex_spirit{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.spirit:hover{
+  color:rgb(158, 246, 14);
+}
+
+.spirit:hover .ex_spirit{
+  opacity:1;
+  display:block;
+}
+
+.factory{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.ex_factory{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.factory:hover{
+  color:rgb(14, 246, 141);
+}
+
+.factory:hover .ex_factory{
+  opacity:1;
+  display:block;
+}
+
+.her{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.ex_her{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.her:hover{
+  color:rgb(14, 190, 246);
+}
+
+.her:hover .ex_her{
+  opacity:1;
+  display:block;
+}
+
+.crazy{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.ex_crazy{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.crazy:hover{
+  color:rgb(14, 65, 246);
+}
+
+.crazy:hover .ex_crazy{
+  opacity:1;
+  display:block;
+}
+
+.batter{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.ex_batter{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.batter:hover{
+  color:rgb(83, 0, 238);
+}
+
+.batter:hover .ex_batter{
+  opacity:1;
+  display:block;
+}
+
+.blue{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.ex_blue{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.blue:hover{
+  color:rgb(181, 0, 255);
+}
+
+.blue:hover .ex_blue{
+  opacity:1;
+  display:block;
+}
+
+.relationship{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.ex_relationship{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.relationship:hover{
+  color:rgb(250, 0, 255);
+}
+
+.relationship:hover .ex_relationship{
+  opacity:1;
+  display:block;
+}
+
+.why{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.ex_why{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.why:hover{
+  color:rgb(255, 0, 145);
+}
+
+.why:hover .ex_why{
+  opacity:1;
+  display:block;
+}
+
+.dialogue{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.ex_dialogue{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.dialogue:hover{
+  color:rgb(255, 0, 61);
+}
+
+.dialogue:hover .ex_dialogue{
+  opacity:1;
+  display:block;
+}
+
+.code_gif{
+  color:rgb(209, 224, 255);
+  display:inline;
+  position:relative;
+}
+
+.touch{
+  position: absolute;
+  opacity:0;
+  transition: opacity 1s ease;
+}
+
+.code_gif:hover {
+  color:rgb(255, 6, 141);
+}
+
+.code_gif:hover .touch{
+  opacity:1;
+  z-index: 2;
+}
+
+/* .one{
+  position: absolute;
+  top:110%;
+  left:30px;
+  width:20vw;
+} */
+
+.two{
+  position:absolute;
+  top:-20px;
+  left:-24vw;
+  width:20vw;
+}
+
+.three{
+  position:absolute;
+  top:0;
+  right:-40vw;
+  width:20vw;
+}
+
+.four{
+  position: absolute;
+  top:0;
+  left:-20vw;
+  width:15vw;
+}
+
+.five{
+  position: absolute;
+  top:0;
+  right:-40vw;
+  width:15vw;
+}
+
+.six{
+  position: absolute;
+  top:0;
+  left:-25vw;
+  width:18vw;
+}
+.seven{
+  position: absolute;
+  top:0;
+  right:-50vw;
+  width:20vw;
+}
+
+.world{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.world:hover{
+  color:rgb(255, 6, 141);
+}
