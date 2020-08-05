@@ -67,3 +67,19 @@ ul{
   font-family: 'MuseoModerno', serif;
   list-style:circle;
 }
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+  .describtion{
+    width:90%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
