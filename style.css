@@ -67,6 +67,26 @@ a{
   display:block;
 }
 
+.mirror{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.mirrormotion{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.mirror:hover{
+  color:rgb(255, 0, 0);
+}
+
+.mirror:hover .mirrormotion{
+  opacity:1;
+  display:block;
+}
+
 .order{
   color:rgb(209, 224, 255);
   display:inline;
