@@ -1,7 +1,8 @@
 body{
   margin:20px;
   background-color:black;
-  font-family: 'MuseoModerno', serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
 }
 
 
@@ -12,7 +13,7 @@ hr{
 .description{
   color:rgb(209, 224, 255);
   display:block;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .when{
