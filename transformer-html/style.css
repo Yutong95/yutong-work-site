@@ -1,0 +1,107 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:20px;
+  background-color:White;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+hr{
+  border: 1px dashed black;
+}
+
+.back{
+  text-decoration: none;
+  margin-top: 8px;
+  color:black;
+  /* position:absolute; */
+  text-align: left;
+  top:0;
+  border:1px dashed;
+  border-radius: 10px;
+  padding:4px 4px 4px 4px;
+}
+
+.description{
+  color:black;
+  display:block;
+  font-size: 2.3rem;
+  left:auto;
+  right:auto;
+  text-align: center;
+  font-style: italic;
+}
+
+.reference{
+  display:block;
+  font-size: 1.5rem;
+  left:auto;
+  right:auto;
+  text-align: center;
+}
+
+.link{
+  text-decoration: none;
+  color:black;
+}
+
+.link:hover{
+  color:rgb(255, 91, 20);
+}
+
+.star{
+  display:block;
+  font-size: 2.3rem;
+  left:auto;
+  right:auto;
+  text-align: center;
+}
+.back:hover{
+  color:rgb(255, 20, 189);
+}
+
+.color_word01{
+  color:rgb(255, 20, 189);
+}
+
+.color_word02{
+  color:rgb(20, 156, 255);
+}
+
+.title{
+  color:Black;
+  font-size:2rem;
+  position: block;
+  text-align: center;
+  height: 40px;
+  font-weight: 600;
+}
+
+.gallery{
+  margin: 10px 50px;
+}
+
+.gallery img{
+  transition: 1s;
+  padding: 15px;
+  width: 33%;
+}
+
+.gallery img:hover{
+  filter:grayscale(100%);
+  transition: scale(1.1);
+}
+
+@media screen and (max-width: 900px) {
+  .gallery {
+    width: 130%;
+  }
+  .description{
+    width:100%;
+  }
+  .title{
+    width:100%;
+  }
+}

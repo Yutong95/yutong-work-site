@@ -88,6 +88,66 @@ a{
   display:block;
 }
 
+.gdes22003{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.gdes22003motion{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.gdes22003:hover{
+  color:rgb(255, 237, 0);
+}
+
+.gdes22003:hover .gdes22003motion{
+  opacity:1;
+  display:block;
+}
+
+.seniorshow{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.seniorshowmotion{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.seniorshow:hover{
+  color:rgb(252, 84, 255);
+}
+
+.seniorshow:hover .seniorshowmotion{
+  opacity:1;
+  display:block;
+}
+
+.transformer{
+  color:rgb(209, 224, 255);
+  display:inline;
+}
+
+.transformermotion{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.transformer:hover{
+  color:rgb(255, 85, 136);
+}
+
+.transformer:hover .transformermotion{
+  opacity:1;
+  display:block;
+}
+
 .order{
   color:rgb(209, 224, 255);
   display:inline;
