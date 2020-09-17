@@ -1,10 +1,10 @@
 body{
   margin:20px;
-  background:black;
+  background:rgb(255, 255, 231);
 }
 
 hr{
-  border: 1px dashed rgb(209, 224, 255);
+  border: 1px dashed black;
 }
 
 ul{
@@ -13,6 +13,14 @@ ul{
 
 a{
   text-decoration: none;
+}
+
+.motioncover-machine{
+  width:98%;
+}
+
+.motioncover-theorder{
+  width: 97%;
 }
 
 .about{
@@ -24,14 +32,14 @@ a{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  color:rgb(209, 224, 255);
+  color:black;
   font-size: 1.2rem;
   /* top:80px;
   left:30px; */
   width:50%;
   /* font-family: serif; */
   font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .logo{
@@ -49,7 +57,7 @@ a{
 }
 
 .machine{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
 }
 
@@ -60,7 +68,7 @@ a{
 }
 
 .machine:hover{
-  color:rgb(255, 75, 27);
+  color:rgb(0, 131, 18);
 }
 
 .machine:hover .machinegirl{
@@ -69,7 +77,7 @@ a{
 }
 
 .mirror{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
 }
 
@@ -80,7 +88,7 @@ a{
 }
 
 .mirror:hover{
-  color:rgb(255, 0, 0);
+  color:rgb(68, 152, 230);
 }
 
 .mirror:hover .mirrormotion{
@@ -89,7 +97,7 @@ a{
 }
 
 .gdes22003{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
 }
 
@@ -100,7 +108,7 @@ a{
 }
 
 .gdes22003:hover{
-  color:rgb(255, 237, 0);
+  color:rgb(120, 158, 12);
 }
 
 .gdes22003:hover .gdes22003motion{
@@ -109,7 +117,7 @@ a{
 }
 
 .seniorshow{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
 }
 
@@ -120,7 +128,7 @@ a{
 }
 
 .seniorshow:hover{
-  color:rgb(252, 84, 255);
+  color:rgb(84, 106, 255);
 }
 
 .seniorshow:hover .seniorshowmotion{
@@ -129,7 +137,7 @@ a{
 }
 
 .transformer{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
 }
 
@@ -149,7 +157,7 @@ a{
 }
 
 .order{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
 }
 
@@ -160,7 +168,7 @@ a{
 }
 
 .order:hover{
-  color:rgb(255, 143, 27);
+  color:rgb(53, 93, 182);
 }
 
 .order:hover .ex_order{
@@ -169,7 +177,7 @@ a{
 }
 
 .labor{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
 }
 
@@ -180,7 +188,7 @@ a{
 }
 
 .labor:hover{
-  color:rgb(222, 214, 20);
+  color:rgb(199, 143, 19);
 }
 
 .labor:hover .ex_labor{
@@ -189,7 +197,7 @@ a{
 }
 
 .spirit{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
 }
 
@@ -200,7 +208,7 @@ a{
 }
 
 .spirit:hover{
-  color:rgb(158, 246, 14);
+  color:rgb(77, 57, 8);
 }
 
 .spirit:hover .ex_spirit{
@@ -209,7 +217,8 @@ a{
 }
 
 .factory{
-  color:rgb(209, 224, 255);
+  /* color:rgb(209, 224, 255); */
+  color:black;
   display:inline;
 }
 
@@ -220,7 +229,7 @@ a{
 }
 
 .factory:hover{
-  color:rgb(14, 246, 141);
+  color:rgb(129, 25, 221);
 }
 
 .factory:hover .ex_factory{
@@ -229,7 +238,7 @@ a{
 }
 
 .her{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
 }
 
@@ -249,7 +258,7 @@ a{
 }
 
 .crazy{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
 }
 
@@ -269,7 +278,7 @@ a{
 }
 
 .batter{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
 }
 
@@ -289,7 +298,7 @@ a{
 }
 
 .blue{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
 }
 
@@ -309,7 +318,7 @@ a{
 }
 
 .relationship{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
 }
 
@@ -329,7 +338,7 @@ a{
 }
 
 .why{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
 }
 
@@ -349,7 +358,7 @@ a{
 }
 
 .dialogue{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
 }
 
@@ -360,7 +369,7 @@ a{
 }
 
 .dialogue:hover{
-  color:rgb(255, 0, 61);
+  color:rgb(100, 6, 207);
 }
 
 .dialogue:hover .ex_dialogue{
@@ -369,7 +378,7 @@ a{
 }
 
 .code_gif{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
   position:relative;
 }
@@ -381,7 +390,7 @@ a{
 }
 
 .code_gif:hover {
-  color:rgb(255, 6, 141);
+  color:rgb(205, 0, 111);
 }
 
 .code_gif:hover .touch{
@@ -406,7 +415,7 @@ a{
 .three{
   position:absolute;
   top:0;
-  right:-40vw;
+  right:-60vw;
   width:20vw;
 }
 
@@ -420,7 +429,7 @@ a{
 .five{
   position: absolute;
   top:0;
-  right:-40vw;
+  right:-26vw;
   width:15vw;
 }
 
@@ -433,17 +442,17 @@ a{
 .seven{
   position: absolute;
   top:0;
-  right:-50vw;
+  right:-30vw;
   width:20vw;
 }
 
 .world{
-  color:rgb(209, 224, 255);
+  color:black;
   display:inline;
 }
 
 .world:hover{
-  color:rgb(255, 6, 141);
+  color:rgb(255, 106, 23);
 }
 
 @media screen and (max-width: 900px) {
