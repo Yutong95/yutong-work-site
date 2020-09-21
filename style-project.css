@@ -93,3 +93,56 @@ hr{
 .videolink:hover{
   color:rgb(255, 20, 189);
 }
+
+@media screen and (max-width: 900px) {
+  .codebook {
+    width: 50%;
+  }
+
+  .book{
+    width: 50%;
+  }
+
+  .touch{
+    width:50%;
+  }
+
+  .finger3d{
+    width:50%;
+  }
+
+  .description{
+    width:50%;
+  }
+
+  .screen{
+    width:50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .codebook {
+    width: 100%;
+  }
+
+  .book{
+    width: 100%;
+  }
+
+  .touch{
+    width: 100%;
+  }
+
+  .finger3d{
+    width: 100%;
+  }
+
+  .description{
+    width: 100%;
+  }
+
+  .screen{
+    width: 100%;
+  }
+}
