@@ -15,6 +15,13 @@ a{
   text-decoration: none;
 }
 
+.intro{
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .motioncover-machine{
   width:98%;
 }

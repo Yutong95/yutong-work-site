@@ -11,17 +11,23 @@ p{
 }
 
 a{
-  color:black;
+  color:rgb(255, 188, 17);
   text-decoration: none;
   display: inline;
 }
 
 a:hover{
-  color:rgb(255, 17, 160);
+  color:rgb(255, 81, 17);
+}
+
+.about{
+  color:black;
+  font-size: 1.1rem;
 }
 
 .back{
-  color:black;
+  color:black
+  ;
   position:absolute;
   right:20px;
   top:20px;
@@ -32,6 +38,7 @@ a:hover{
 
 .back:hover{
   color:rgb(255, 17, 160);
+  font-weight:400;
 }
 
 .name{
@@ -45,9 +52,9 @@ a:hover{
 }
 
 .yt_img{
-  width:100px;
+  width:20%;
   position: absolute;
-  left:20px;
+  left:5px;
 }
 
 .describtion{
@@ -55,7 +62,7 @@ a:hover{
   font-size: 1rem;
   position:absolute;
   left:20px;
-  top:220px;
+  top:260px;
   width:700px;
 }
 
