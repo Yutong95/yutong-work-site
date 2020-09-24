@@ -469,6 +469,9 @@ a{
   .logo{
     width:80%;
   }
+  .intro{
+    width: 50%;
+  }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -478,5 +481,8 @@ a{
   }
   .title{
     width:100%;
+  }
+  .intro{
+    width: 100%;
   }
 }
