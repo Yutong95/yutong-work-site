@@ -15,6 +15,45 @@ a{
   text-decoration: none;
 }
 
+.leader{
+  display:block;
+  /* height:30px; */
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color: rgb(255, 255, 231);
+  z-index:99;
+  border-bottom:1px rgb(218, 218, 218) solid;
+}
+
+.yutong{
+  position:absolute;
+  right:10px;
+  top:16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color:black;
+}
+
+.yutong:hover{
+  color:rgb(50, 79, 203);
+}
+
+.center_page{
+  display:block;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color:black;
+}
+
+.center_page:hover{
+  color:rgb(50, 79, 203);
+}
+
 .intro{
   width: 35%;
   display: block;
@@ -32,7 +71,7 @@ a{
 
 .about{
   text-decoration: none;
-  color:rgb(255, 20, 189);
+  color:rgb(50, 79, 203);
 }
 
 .title{
@@ -75,7 +114,7 @@ a{
 }
 
 .machine:hover{
-  color:rgb(0, 131, 18);
+  color:black;
 }
 
 .machine:hover .machinegirl{
@@ -94,9 +133,9 @@ a{
   display:none;
 }
 
-.mirror:hover{
+/* .mirror:hover{
   color:rgb(68, 152, 230);
-}
+} */
 
 .mirror:hover .mirrormotion{
   opacity:1;
@@ -114,9 +153,9 @@ a{
   display:none;
 }
 
-.gdes22003:hover{
+/* .gdes22003:hover{
   color:rgb(120, 158, 12);
-}
+} */
 
 .gdes22003:hover .gdes22003motion{
   opacity:1;
@@ -134,9 +173,9 @@ a{
   display:none;
 }
 
-.seniorshow:hover{
+/* .seniorshow:hover{
   color:rgb(84, 106, 255);
-}
+} */
 
 .seniorshow:hover .seniorshowmotion{
   opacity:1;
@@ -154,9 +193,9 @@ a{
   display:none;
 }
 
-.transformer:hover{
+/* .transformer:hover{
   color:rgb(255, 85, 136);
-}
+} */
 
 .transformer:hover .transformermotion{
   opacity:1;
@@ -174,9 +213,9 @@ a{
   display:none;
 }
 
-.order:hover{
+/* .order:hover{
   color:rgb(53, 93, 182);
-}
+} */
 
 .order:hover .ex_order{
   opacity:1;
@@ -194,9 +233,9 @@ a{
   display:none;
 }
 
-.labor:hover{
+/* .labor:hover{
   color:rgb(199, 143, 19);
-}
+} */
 
 .labor:hover .ex_labor{
   opacity:1;
@@ -214,9 +253,9 @@ a{
   display:none;
 }
 
-.spirit:hover{
+/* .spirit:hover{
   color:rgb(77, 57, 8);
-}
+} */
 
 .spirit:hover .ex_spirit{
   opacity:1;
@@ -224,7 +263,6 @@ a{
 }
 
 .factory{
-  /* color:rgb(209, 224, 255); */
   color:black;
   display:inline;
 }
@@ -235,9 +273,9 @@ a{
   display:none;
 }
 
-.factory:hover{
+/* .factory:hover{
   color:rgb(129, 25, 221);
-}
+} */
 
 .factory:hover .ex_factory{
   opacity:1;
@@ -255,9 +293,9 @@ a{
   display:none;
 }
 
-.her:hover{
+/* .her:hover{
   color:rgb(14, 190, 246);
-}
+} */
 
 .her:hover .ex_her{
   opacity:1;
@@ -275,9 +313,9 @@ a{
   display:none;
 }
 
-.crazy:hover{
+/* .crazy:hover{
   color:rgb(14, 65, 246);
-}
+} */
 
 .crazy:hover .ex_crazy{
   opacity:1;
@@ -295,9 +333,9 @@ a{
   display:none;
 }
 
-.batter:hover{
+/* .batter:hover{
   color:rgb(83, 0, 238);
-}
+} */
 
 .batter:hover .ex_batter{
   opacity:1;
@@ -315,9 +353,9 @@ a{
   display:none;
 }
 
-.blue:hover{
+/* .blue:hover{
   color:rgb(181, 0, 255);
-}
+} */
 
 .blue:hover .ex_blue{
   opacity:1;
@@ -335,9 +373,9 @@ a{
   display:none;
 }
 
-.relationship:hover{
+/* .relationship:hover{
   color:rgb(250, 0, 255);
-}
+} */
 
 .relationship:hover .ex_relationship{
   opacity:1;
@@ -355,9 +393,9 @@ a{
   display:none;
 }
 
-.why:hover{
+/* .why:hover{
   color:rgb(255, 0, 145);
-}
+} */
 
 .why:hover .ex_why{
   opacity:1;
@@ -375,9 +413,9 @@ a{
   display:none;
 }
 
-.dialogue:hover{
+/* .dialogue:hover{
   color:rgb(100, 6, 207);
-}
+} */
 
 .dialogue:hover .ex_dialogue{
   opacity:1;
@@ -396,9 +434,9 @@ a{
   transition: opacity 1s ease;
 }
 
-.code_gif:hover {
+/* .code_gif:hover {
   color:rgb(205, 0, 111);
-}
+} */
 
 .code_gif:hover .touch{
   opacity:1;
@@ -458,9 +496,9 @@ a{
   display:inline;
 }
 
-.world:hover{
+/* .world:hover{
   color:rgb(255, 106, 23);
-}
+} */
 
 @media screen and (max-width: 900px) {
   .column {
