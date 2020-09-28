@@ -434,9 +434,9 @@ a{
   transition: opacity 1s ease;
 }
 
-/* .code_gif:hover {
-  color:rgb(205, 0, 111);
-} */
+.code_gif:hover {
+  color:rgb(50, 79, 203);
+}
 
 .code_gif:hover .touch{
   opacity:1;
@@ -496,9 +496,9 @@ a{
   display:inline;
 }
 
-/* .world:hover{
-  color:rgb(255, 106, 23);
-} */
+.world:hover{
+  color:rgb(50, 79, 203);;
+}
 
 @media screen and (max-width: 900px) {
   .column {
